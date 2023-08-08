@@ -11,7 +11,7 @@ const Home = () => {
         <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img className="w-100" src="/carousel-1.jpg" alt="Image" />
+              <img className="w-100" src="http://localhost:3000/gardening-template/img/carousel-1.jpg" alt="Image" />
               <div className="carousel-caption">
                 <div className="container">
                   <div className="row justify-content-center">
