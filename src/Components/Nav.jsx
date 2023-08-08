@@ -1,10 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import Topheader from './Topheader';
-
-
-
-
 
 const Nav = () => {
   return (
@@ -12,12 +8,8 @@ const Nav = () => {
       <Topheader />
 
       <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a
-          href="index.html"
-          className="navbar-brand d-flex align-items-center px-4 px-lg-5"
-        >
-          <h1 className="m-0">Gardener</h1>
-        </a>
+       
+        <Link to='/' className="navbar-brand d-flex align-items-center px-4 px-lg-5"><h1 className="m-0">Gardener</h1></Link>
         <button
           type="button"
           className="navbar-toggler me-4"
@@ -28,18 +20,11 @@ const Nav = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="/" className="nav-item nav-link active">
-              Home
-            </a>
-            <a href="/about" className="nav-item nav-link ">
-              About
-            </a>
-            <a href="/services" className="nav-item nav-link">
-              Services
-            </a>
-            <a href="/project" className="nav-item nav-link">
-              Projects
-            </a>
+            <Link to='/' className="nav-item nav-link active">Home</Link>
+            <Link to='/about' className="nav-item nav-link">About</Link>
+            <Link to='/services' className="nav-item nav-link">Services</Link>
+            <Link to='/project' className="nav-item nav-link">Projects</Link>
+           
             <div className="nav-item dropdown">
               <a
                 href="#"
@@ -49,9 +34,7 @@ const Nav = () => {
                 Pages
               </a>
               <div className="dropdown-menu bg-light m-0">
-                <a href="/feature" className="dropdown-item">
-                  Features
-                </a>
+                <Link to='/feature' className="dropdown-item">Features</Link>
                 <a href="quote.html" className="dropdown-item">
                   Free Quote
                 </a>
