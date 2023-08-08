@@ -40,7 +40,7 @@ const Service = () => {
       <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div className="service-item rounded d-flex h-100">
           <div className="service-img rounded">
-            <img className="img-fluid" src="gardening-template/img/service-1.jpg" alt="" />
+            <img className="img-fluid" src="img/service-1.jpg" alt="" />
           </div>
           <div className="service-text rounded p-5">
             <div className="btn-square rounded-circle mx-auto mb-3">
@@ -61,11 +61,11 @@ const Service = () => {
       <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
         <div className="service-item rounded d-flex h-100">
           <div className="service-img rounded">
-            <img className="img-fluid" src="gardening-template/img/service-2.jpg" alt="" />
+            <img className="img-fluid" src="img/service-2.jpg" alt="" />
           </div>
           <div className="service-text rounded p-5">
             <div className="btn-square rounded-circle mx-auto mb-3">
-              <img className="img-fluid" src="gardening-template/img/icon/icon-6.png" alt="Icon" />
+              <img className="img-fluid" src="img/icon/icon-6.png" alt="Icon" />
             </div>
             <h4 className="mb-3">Pruning plants</h4>
             <p className="mb-4">
@@ -82,11 +82,11 @@ const Service = () => {
       <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
         <div className="service-item rounded d-flex h-100">
           <div className="service-img rounded">
-            <img className="img-fluid" src="gardening-template/img/service-3.jpg" alt="" />
+            <img className="img-fluid" src="img/service-3.jpg" alt="" />
           </div>
           <div className="service-text rounded p-5">
             <div className="btn-square rounded-circle mx-auto mb-3">
-              <img className="img-fluid" src="gardening-template/img/icon/icon-5.png" alt="Icon" />
+              <img className="img-fluid" src="img/icon/icon-5.png" alt="Icon" />
             </div>
             <h4 className="mb-3">Irrigation &amp; Drainage</h4>
             <p className="mb-4">
@@ -103,11 +103,11 @@ const Service = () => {
       <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
         <div className="service-item rounded d-flex h-100">
           <div className="service-img rounded">
-            <img className="img-fluid" src="gardening-template/img/service-4.jpg" alt="" />
+            <img className="img-fluid" src="img/service-4.jpg" alt="" />
           </div>
           <div className="service-text rounded p-5">
             <div className="btn-square rounded-circle mx-auto mb-3">
-              <img className="img-fluid" src="gardening-template/img/icon/icon-4.png" alt="Icon" />
+              <img className="img-fluid" src="img/icon/icon-4.png" alt="Icon" />
             </div>
             <h4 className="mb-3">Garden Maintenance </h4>
             <p className="mb-4">
@@ -124,11 +124,11 @@ const Service = () => {
       <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
         <div className="service-item rounded d-flex h-100">
           <div className="service-img rounded">
-            <img className="img-fluid" src="gardening-template/img/service-5.jpg" alt="" />
+            <img className="img-fluid" src="img/service-5.jpg" alt="" />
           </div>
           <div className="service-text rounded p-5">
             <div className="btn-square rounded-circle mx-auto mb-3">
-              <img className="img-fluid" src="gardening-template/img/icon/icon-8.png" alt="Icon" />
+              <img className="img-fluid" src="img/icon/icon-8.png" alt="Icon" />
             </div>
             <h4 className="mb-3">Green Technology</h4>
             <p className="mb-4">
