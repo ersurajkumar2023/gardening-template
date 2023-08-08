@@ -22,8 +22,9 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/service" component={Service} />
-          <Route exact path="/contact" component={Project} />
-          <Route exact path="/about" component={Contact} />
+          <Route exact path="/project" component={Project} />
+          {/* <Route exact path="/contact" component={Project} /> */}
+          <Route exact path="/contact" component={Contact} />
           <Route exact path="/feature" component={Features} />
           <Redirect to="/" />
         </Switch>

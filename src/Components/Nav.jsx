@@ -49,9 +49,7 @@ const Nav = () => {
                 </a>
               </div>
             </div>
-            <a href="/contact" className="nav-item nav-link">
-              Contact
-            </a>
+            <Link to='/contact' className="nav-item nav-link">Contact</Link>
           </div>
           <a
             href=""
